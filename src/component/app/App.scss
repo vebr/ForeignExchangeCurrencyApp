@@ -1,0 +1,10 @@
+@import '~currency-flags/dist/currency-flags.min.css';
+@import '~react-swipe-to-delete-component/dist/swipe-to-delete.css';
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}

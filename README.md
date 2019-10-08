@@ -5,6 +5,20 @@
 I created this website for testing for the Frontend Web Developer test, this website able to convert currency base on selected currency,
 and able to add more currency to the list.
 
+
+## Usage
+
+### With Docker
+
+> docker build . -t FEC && docker run FEC -p 3000:3000
+
+### without docker
+
+> npm install
+
+> npm start
+
+
 ## Lighthouse Score
 
 > **Applied Slow 4G, 4x CPU Slowdown :**

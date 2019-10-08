@@ -1,9 +1,9 @@
 import React from "react";
-// import { setRates, setValue } from "../context/consumer";
 import { makeStyles } from "@material-ui/core/styles";
 import { setValue } from "../context/consumer";
 import deburr from "lodash/deburr";
 import Downshift from "downshift";
+import suggestions from "../utils/sugesstions";
 
 import {
   Paper,
@@ -13,41 +13,6 @@ import {
   ButtonGroup,
   TextField,
 } from "@material-ui/core";
-
-const suggestions = [
-  { label: "AUD" },
-  { label: "BGN" },
-  { label: "BRL" },
-  { label: "CAD" },
-  { label: "CHF" },
-  { label: "CNY" },
-  { label: "CZK" },
-  { label: "DKK" },
-  { label: "GBP" },
-  { label: "HKD" },
-  { label: "HRK" },
-  { label: "HUF" },
-  { label: "IDR" },
-  { label: "ILS" },
-  { label: "INR" },
-  { label: "ISK" },
-  { label: "JPY" },
-  { label: "KRW" },
-  { label: "MXN" },
-  { label: "MYR" },
-  { label: "NOK" },
-  { label: "NZD" },
-  { label: "PHP" },
-  { label: "PLN" },
-  { label: "RON" },
-  { label: "RUB" },
-  { label: "SEK" },
-  { label: "SGD" },
-  { label: "THB" },
-  { label: "TRY" },
-  { label: "USD" },
-  { label: "ZAR" },
-];
 
 const useStyles = makeStyles(theme => ({
   root: {

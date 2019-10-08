@@ -10,7 +10,7 @@ and able to add more currency to the list.
 
 ### With Docker
 
-> docker build . -t FEC && docker run FEC -p 3000:3000
+> docker build . -t fec && docker run fec -p 3000:3000
 
 ### without docker
 
@@ -48,5 +48,6 @@ Here is a working live demo :  https://foreignexchangecurrencyapp.web.app/
     │   ├── index.js
     │   ├── index.css
     │   ├── serviceWorker.js
+    ├── Dockerfile
 
 >  The **context** folder contains file that use context api of react for store data on global state
